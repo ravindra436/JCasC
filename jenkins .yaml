@@ -6,7 +6,13 @@ credentials:
           id: "Git_ID"
           password: "{AQAAABAAAAAQz6d3yuZT/JVQ6ObNq70BeM5cNOhlhYyvL3h3YPdv0fs=}"
           scope: GLOBAL
-          username: "ravindra436"
+      - usernamePassword:
+          scope: GLOBAL
+          id: "username"
+          username: "some-user"
+          password: "SomeUserPassword" #Load from Environment Variable
+          description: "Username/Password Credentials for some-user"
+
 jenkins:
   agentProtocols:
   - "JNLP4-connect"
