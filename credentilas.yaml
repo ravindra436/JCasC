@@ -1,9 +1,8 @@
 credentials:
   system:
-    domainCredentials
           - usernamePassword:
               scope: GLOBAL
               id: "username"
               username: "some-user"
-              password: ${SomeUserPassword} #Load from Environment Variable
+              password: "SomeUserPassword" #Load from Environment Variable
               description: "Username/Password Credentials for some-user"
